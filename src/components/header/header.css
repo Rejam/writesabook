@@ -1,0 +1,14 @@
+.header {
+  flex: 0 1;
+  width: 100%;
+  background: #abc;
+  padding: 1em;
+}
+
+nav {
+  /*display: flex;
+  justify-content: space-around;*/
+}
+
+input {
+}

@@ -1,0 +1,14 @@
+.contact {
+  max-width: 600px;
+  margin: 0 2em;
+}
+.contactForm {
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+form > input, textarea{
+  margin-bottom: 1em;
+}
