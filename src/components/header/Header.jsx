@@ -1,5 +1,4 @@
 import React from 'react';
-import Title from './title/Title'
 import './header.css'
 
 class Header extends React.Component {
@@ -14,7 +13,7 @@ class Header extends React.Component {
   render() {
     return (
     <div className="header">
-      <Title />
+      <h2 className="title">Newcastle Writes A Book</h2>
       <nav>
         <input className="btn nav__btn nav__btn--home" type="button" value="Home" onClick={this.handleClick} />
         <input className="btn nav__btn nav__btn--contact" type="button" value="Contact" onClick={this.handleClick} />

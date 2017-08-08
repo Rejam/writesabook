@@ -1,8 +1,9 @@
 .App {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
-  align-items: center;
-  background: #eee;
-  min-width: 250px;
+}
+body {
+  background: url('C:/Users/rejam/Documents/Projects/writesabook/src/assets/images/bridgesAtNight.jpeg') center center no-repeat;
+  background-size: cover;
+  z-index: -10;
 }

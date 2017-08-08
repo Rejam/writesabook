@@ -15,18 +15,13 @@ class Main extends React.Component {
         "Contact": <Contact key="contact" />
       }
       const view = views[this.props.view]
-
     return (
-
-      <ReactTransitions
-  transition="move-to-left-move-from-right"
-  width="600"
-  height="300">
-
+      <ReactTransitions className="mainContainer"
+  transition="scale-down-move-from-top"
+  width="90vw"
+  height="100vh">
       <div key={view.key} className="main"> {view} </div>
-
     </ReactTransitions>
-
     )
   }
 }

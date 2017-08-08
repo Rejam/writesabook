@@ -12,16 +12,15 @@ class App extends Component {
     this.changeView = this.changeView.bind(this)
   }
   changeView(viewName) {
-    console.log(viewName)
     this.setState({view: viewName})
   }
   render() {
-
   return (
     <div className="App">
+<Footer />
       <Header changeView={this.changeView} />
       <Main view={this.state.view} />
-      <Footer />
+
     </div>
     )
   }

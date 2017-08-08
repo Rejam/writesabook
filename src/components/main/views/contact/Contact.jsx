@@ -9,7 +9,7 @@ class Contact extends React.Component {
   render() {
     return (
       <div className="contact">
-        <h2>Contact Us</h2>
+        <h4>Contact Us</h4>
         <form className="contactForm" action="https://formspree.io/writesabook@protonmail.com" method="post">
 
           <FormField type="text" name="name" />
@@ -17,8 +17,8 @@ class Contact extends React.Component {
 
           <div className="contactForm__field">
             <textarea name="message"
-              className="contactForm__input"
-              rows="5"
+              className="contactForm_textArea"
+              rows="10" cols="10"
               id="message"
               placeholder="Enter your message" />
           </div>

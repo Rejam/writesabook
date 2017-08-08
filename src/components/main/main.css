@@ -1,5 +1,10 @@
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
 .main {
-  padding: 0 2em;
-  max-width: 600px;
-  flex: 1 1;
+  flex: auto;
+  margin: 5vh 10vw;
+  height: 900px;
 }

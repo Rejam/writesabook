@@ -1,24 +1,21 @@
 .header {
   width: 100%;
-  background: #abc;
+}
+.title {
+  color: white;
+  text-align: center;
 }
 
 nav {
-  margin: 0 0 1em 1em;
+  text-align: center;
+  padding: 0;
+  margin: 0;
 }
 .nav__btn {
-  border: 1px solid grey;
-  padding: 0.2em 1em;
-  background: #ddd;
+  border: none;
+  background: #eee;
 }
 
 .nav__btn--home {
-  border-right: none;
-  border-top-left-radius: 0.3em;
-  border-bottom-left-radius: 0.3em;
-}
-
-.nav__btn--contact {
-  border-top-right-radius: 0.3em;
-  border-bottom-right-radius: 0.3em;
+  margin-right: 1em;
 }
