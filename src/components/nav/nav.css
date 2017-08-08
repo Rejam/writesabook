@@ -1,0 +1,26 @@
+.navbar {
+  background: #eee;
+  width: 100%;
+  color: #eee;
+  padding: 1em 1em 0 1em;
+
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.navbar > * {
+  margin-bottom: 1em;
+  height: 2em;
+}
+
+.socialLink {
+  background: #666;
+  padding: 0 1em;
+  color: #acd;
+  text-decoration: none;
+  font-size: 14px;
+  border-radius: 1em;
+  text-align: center;
+  line-height: 2em;
+}
