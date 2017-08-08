@@ -1,6 +1,4 @@
 .homeContainer {
-  padding: 1em 2em;
-  background: rgba(255, 255, 255, 0.9);
-  border-radius: 0.2em;
-  border: 2px solid lightblue;
+  padding: 1em 20vw;
+  background: rgba(255, 255, 255, 1);
 }

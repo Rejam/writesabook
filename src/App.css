@@ -2,8 +2,3 @@
   display: flex;
   flex-direction: column;
 }
-body {
-  background: url('C:/Users/rejam/Documents/Projects/writesabook/src/assets/images/bridgesAtNight.jpeg') center center no-repeat;
-  background-size: cover;
-  z-index: -10;
-}

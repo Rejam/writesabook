@@ -1,37 +1,35 @@
-h4 {
-  color: white;
-}
 .contact {
   font-family: Arial;
-  margin-bottom: 1em;
   margin: auto;
+  min-width: 320px;
+  margin-bottom: 2em;
+}
+h4 {
+  color: white;
 }
 .contactForm {
   border: 1px solid black;
   padding: 1em;
-  border-radius: 0.3em;
+  border-radius: 0.2em;
   background: #ddd;
-  min-width: 50vw;
 
   display: flex;
   flex-direction: column;
 }
-.contactForm__field{
+.contactForm__field {
   display: flex;
   margin-bottom: 0.5em;
 }
-.contactForm__label{
+.contactForm__label {
   margin-right: 0.5em;
-  width: 60px;
 }
 .contactForm_textArea,
-.contactForm__input{
+.contactForm__input {
   padding-left: 0.5em;
-  width: 100%;
+  flex: 1 1 auto;
   font-family: Calibri, Arial;
 }
-.contactForm_textArea{
-
+.contactForm_textArea {
 }
 
 .contactForm__submit {
