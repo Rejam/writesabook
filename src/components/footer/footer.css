@@ -3,6 +3,13 @@
   width: 100%;
   color: #eee;
   padding: 1em;
+  margin-top: 2em;
+
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.footer a {
+  color: #eee;
+  margin-right: 1em;
 }

@@ -5,12 +5,11 @@ class Footer extends React.Component {
   render() {
     return (
       <div className="footer">
-        <span className="social">
-          Twitter Facebook GoFundMe
-        </span>
-        <span>
-          Footer
-        </span>
+          <a href="">Twitter</a>
+          <a href="">Facebook</a>
+          <a href="https://www.gofundme.com/newcastle-writes-a-book">
+             GoFundMe
+          </a>
       </div>
     )
   }

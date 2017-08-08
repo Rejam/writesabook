@@ -1,14 +1,24 @@
 .header {
-  flex: 0 1;
   width: 100%;
   background: #abc;
-  padding: 1em;
 }
 
 nav {
-  /*display: flex;
-  justify-content: space-around;*/
+  margin: 0 0 1em 1em;
+}
+.nav__btn {
+  border: 1px solid grey;
+  padding: 0.2em 1em;
+  background: #ddd;
 }
 
-input {
+.nav__btn--home {
+  border-right: none;
+  border-top-left-radius: 0.3em;
+  border-bottom-left-radius: 0.3em;
+}
+
+.nav__btn--contact {
+  border-top-right-radius: 0.3em;
+  border-bottom-right-radius: 0.3em;
 }

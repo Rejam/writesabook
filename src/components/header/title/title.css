@@ -1,0 +1,17 @@
+.loc, .title {
+  display: inline-block;
+}
+
+.loc {
+  margin-left: 1em;
+  color: brown;
+  font-family: Verdana, Arial;
+  font-size: calc(22px + 0.40vw)
+}
+
+.title {
+  margin: 0 0 1em 1em;;
+  color: maroon;
+  font-family: Calibri;
+  font-size: calc(22px + 0.25vw)
+}

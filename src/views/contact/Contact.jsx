@@ -1,23 +1,30 @@
 import React from 'react'
 import './contact.css'
+import FormField from './formField/FormField'
 
 class Contact extends React.Component {
   handleClick(e) {
-    e.preventDefault();
+;
   }
   render() {
     return (
       <div className="contact">
-        <p>If you have any questions, or suggestions, please contact us via email, Twitter or you can use the form below:</p>
-        <form className="contactForm" action="">
-          <label htmlFor="form-name">Name: </label>
-          <input type="text" id="form-name" placeholder="Name:"/>
+        <h2>Contact Us</h2>
+        <form className="contactForm" action="https://formspree.io/writesabook@protonmail.com" method="post">
 
-          <label htmlFor="form-email">Email: </label>
-          <input type="email" id="form-email" placeholder="Email:"/>
+          <FormField type="text" name="name" />
+          <FormField type="email" name="email" />
 
-          <textarea name="" id="form-text" rows="5" placeholder="Enter your message"></textarea>
-          <input type="submit" onClick={this.handleClick}/>
+          <div className="contactForm__field">
+            <textarea name="message"
+              className="contactForm__input"
+              rows="5"
+              id="message"
+              placeholder="Enter your message" />
+          </div>
+
+          <input className="btn contactForm__submit" type="submit" onClick={this.handleClick}/>
+
         </form>
       </div>
     )
