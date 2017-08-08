@@ -5,10 +5,6 @@ import Header from './components/header/Header'
 import Main from './components/main/Main'
 import Footer from './components/footer/Footer'
 
-import Home from './views/home/Home'
-import Gofundme from './views/gofundme/Gofundme'
-import Contact from './views/contact/Contact'
-
 class App extends Component {
   constructor() {
     super()
@@ -21,16 +17,10 @@ class App extends Component {
   }
   render() {
 
-  const views = {
-    "Home": <Home />,
-    "Contact": <Contact />
-  }
   return (
     <div className="App">
       <Header changeView={this.changeView} />
-      <Main>
-        {views[this.state.view]}
-      </Main>
+      <Main view={this.state.view} />
       <Footer />
     </div>
     )
