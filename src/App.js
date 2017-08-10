@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./App.css";
+import "C:/Users/rejam/Documents/Projects/writesabook/node_modules/font-awesome/css/font-awesome.min.css";
 
 import Nav from "./components/nav/Nav";
 import Header from "./components/header/Header";

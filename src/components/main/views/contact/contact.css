@@ -1,9 +1,15 @@
 .contact {
   font-family: Arial;
-  margin: auto;
-  min-width: 320px;
+  min-width: 250px;
   margin-bottom: 2em;
+  opacity: 0;
+  transition: all 500ms ease-in-out;
 }
+
+.show {
+  opacity: 1;
+}
+
 h4 {
   color: white;
 }
@@ -15,21 +21,6 @@ h4 {
 
   display: flex;
   flex-direction: column;
-}
-.contactForm__field {
-  display: flex;
-  margin-bottom: 0.5em;
-}
-.contactForm__label {
-  margin-right: 0.5em;
-}
-.contactForm_textArea,
-.contactForm__input {
-  padding-left: 0.5em;
-  flex: 1 1 auto;
-  font-family: Calibri, Arial;
-}
-.contactForm_textArea {
 }
 
 .contactForm__submit {

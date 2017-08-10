@@ -1,0 +1,13 @@
+.contactForm__field {
+  display: flex;
+  margin-bottom: 0.5em;
+}
+.contactForm__label {
+  margin-right: 0.5em;
+}
+.contactForm_textArea,
+.contactForm__input {
+  padding-left: 0.5em;
+  flex: 1 1 auto;
+  font-family: Calibri, Arial;
+}

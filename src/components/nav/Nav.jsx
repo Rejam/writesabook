@@ -22,13 +22,15 @@ class Nav extends React.Component {
           className="socialLink"
           href="https://www.gofundme.com/newcastle-writes-a-book"
         >
-          GoFundMe
+          Go Fund Me
         </a>
+
         <a className="socialLink" href="">
-          Twitter
+          Twitter <i className="fa fa-twitter" aria-hidden="true" />
         </a>
+
         <a className="socialLink" href="">
-          Facebook
+          Facebook <i className="fa fa-facebook" aria-hidden="true" />
         </a>
       </nav>
     );

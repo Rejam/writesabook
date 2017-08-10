@@ -1,12 +1,13 @@
 import React from "react";
 import "./contact.css";
 import FormField from "./formField/FormField";
+import "./formField/formField.css";
 
 class Contact extends React.Component {
-  handleClick(e) {}
   render() {
+    const classN = this.props.showContact ? "contact show" : "contact";
     return (
-      <div className="contact">
+      <div className={classN}>
         <h4>Contact Us</h4>
         <form
           className="contactForm"
@@ -21,17 +22,12 @@ class Contact extends React.Component {
               name="message"
               className="contactForm_textArea"
               rows="6"
-              cols="10"
               id="message"
               placeholder="Enter your message"
             />
           </div>
 
-          <input
-            className="btn contactForm__submit"
-            type="submit"
-            onClick={this.handleClick}
-          />
+          <input className="btn contactForm__submit" type="submit" />
         </form>
       </div>
     );

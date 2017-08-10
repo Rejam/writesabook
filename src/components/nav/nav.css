@@ -15,12 +15,19 @@
 }
 
 .socialLink {
-  background: #666;
+  border: 1px solid #222;
+  width: 10em;
   padding: 0 1em;
-  color: #acd;
+  color: #222;
   text-decoration: none;
   font-size: 14px;
   border-radius: 1em;
   text-align: center;
   line-height: 2em;
+}
+
+.nav__btn {
+  width: 10em;
+  background: #abe;
+  border: 1px solid #222;
 }
