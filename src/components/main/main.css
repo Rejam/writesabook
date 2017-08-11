@@ -1,6 +1,4 @@
 .hero {
-  background: url('C:/Users/rejam/Documents/Projects/writesabook/src/assets/images/bridgesAtNight.jpeg')
-    no-repeat;
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -14,4 +12,8 @@
   background: white;
   border: none;
   height: 50px;
+}
+
+.main {
+  margin-bottom: 15vh;
 }

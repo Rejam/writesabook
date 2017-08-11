@@ -9,20 +9,33 @@ import Main from "./components/main/Main";
 class App extends Component {
   constructor() {
     super();
-    this.state = { showContact: false };
+    this.state = { showContact: false, current_image: 0 };
     this.toggleContact = this.toggleContact.bind(this);
+    this.changeImage = this.changeImage.bind(this);
   }
   toggleContact() {
     const toggle = !this.state.showContact;
     console.log(toggle);
     this.setState({ showContact: toggle });
   }
+  changeImage(num) {
+    const numberOfImages = 2;
+    const nextImage = this.state.current_image + num;
+    const newImage =
+      nextImage < 0 ? numberOfImages - 1 : nextImage % numberOfImages;
+    this.setState({ current_image: newImage });
+    console.log(this.state);
+  }
   render() {
     return (
       <div className="App">
         <Header />
         <Nav toggleContactForm={this.toggleContact} />
-        <Main showContactForm={this.state.showContact} />
+        <Main
+          current_image={this.state.current_image}
+          updateImage={this.changeImage}
+          showContactForm={this.state.showContact}
+        />
       </div>
     );
   }

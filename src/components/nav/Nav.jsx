@@ -12,25 +12,23 @@ class Nav extends React.Component {
   render() {
     return (
       <nav className="navbar">
-        <input
-          className="btn nav__btn nav__btn--contact"
-          type="button"
-          value="Contact Us"
-          onClick={this.handleClick}
-        />
         <a
-          className="socialLink"
+          className="nav__link"
           href="https://www.gofundme.com/newcastle-writes-a-book"
         >
           Go Fund Me
         </a>
 
-        <a className="socialLink" href="">
+        <a className="nav__link" href="">
           Twitter <i className="fa fa-twitter" aria-hidden="true" />
         </a>
 
-        <a className="socialLink" href="">
+        <a className="nav__link" href="">
           Facebook <i className="fa fa-facebook" aria-hidden="true" />
+        </a>
+
+        <a className="nav__link" href="" onClick={this.handleClick}>
+          Contact Us<i className="fa fa-envelope" aria-hidden="true" />
         </a>
       </nav>
     );
