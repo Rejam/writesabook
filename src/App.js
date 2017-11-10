@@ -15,7 +15,7 @@ class App extends Component {
   }
   toggleContact() {
     const toggle = !this.state.showContact;
-    console.log(toggle);
+    //console.log(!this.state.showContact);
     this.setState({ showContact: toggle });
   }
   changeImage(num) {

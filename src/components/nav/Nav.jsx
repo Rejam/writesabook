@@ -19,15 +19,15 @@ class Nav extends React.Component {
           Go Fund Me
         </a>
 
-        <a className="nav__link" href="">
+        <a className="nav__link" href="www.twitter.com">
           Twitter <i className="fa fa-twitter" aria-hidden="true" />
         </a>
 
-        <a className="nav__link" href="">
+        <a className="nav__link" href="www.facebook.com">
           Facebook <i className="fa fa-facebook" aria-hidden="true" />
         </a>
 
-        <a className="nav__link" href="" onClick={this.handleClick}>
+        <a className="nav__link" href="#page_top" onClick={this.handleClick}>
           Contact Us<i className="fa fa-envelope" aria-hidden="true" />
         </a>
       </nav>

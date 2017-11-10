@@ -12,13 +12,29 @@ class Main extends React.Component {
     super(props);
     this.image_left = this.image_left.bind(this);
     this.image_right = this.image_right.bind(this);
+    //this.disableEnable = this.disableEnable.bind(this);
   }
   image_left() {
     this.props.updateImage(-1);
+    //this.disable();
   }
   image_right() {
     this.props.updateImage(1);
+    //this.disable();
   }
+  // disable() {
+  //   const buttons = document.querySelectorAll(".imageNav");
+  //   buttons.forEach(button => (button.disabled = true));
+  //   this.enable(buttons);
+  // }
+  // enable(buttons) {
+  //   setTimeout(() =>
+  //     buttons.forEach(button => {
+  //       console.log("enabling");
+  //       button.disabled = false;
+  //     }, 5000)
+  //   );
+  // }
   render() {
     const images = [image1, image2];
     return (
